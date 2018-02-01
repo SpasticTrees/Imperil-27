@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ canvas
+comment0.target=Rain(double,\ double,\ double,\ double,\ objectdraw.DrawingCanvas)
+comment0.text=\n\ This\ is\ the\ rain\ object.\n
+comment1.params=dx\ dy
+comment1.target=void\ move(double,\ double)
+comment1.text=\n\ This\ moves\ the\ raindrops\ a\ specific\ distance.\n
+comment2.params=
+comment2.target=void\ hide()
+comment2.text=\n\ This\ hides\ the\ object.\n
+comment3.params=
+comment3.target=void\ removeFromCanvas()
+comment3.text=\n\ This\ removes\ the\ object\ from\ the\ canvas.\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\n\ This\ tells\ the\ object\ what\ happens\ when\ it\ moves.\n\ -----------------------------------------------------\n\ The\ raindrops\ will\ fall\ down\ the\ screen\ until\ \n\ they\ reach\ the\ bottom,\ then\ they\ will\ be\ removed\ from\ \n\ the\ canvas.\n
+comment5.params=newColor
+comment5.target=void\ setColor(java.awt.Color)
+comment5.text=\n\ This\ changes\ the\ color\ of\ the\ object.\n
+comment6.params=aBlock
+comment6.target=boolean\ overlaps(BlockBlocker)
+comment7.params=aPlayer
+comment7.target=boolean\ overlaps(Cannon)
+numComments=8

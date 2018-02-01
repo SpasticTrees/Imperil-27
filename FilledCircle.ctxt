@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y\ radius\ canvas
+comment0.target=FilledCircle(double,\ double,\ double,\ objectdraw.DrawingCanvas)
+comment0.text=\n\ This\ is\ the\ constructor.\n
+comment1.params=newColor
+comment1.target=void\ setColor(java.awt.Color)
+comment1.text=\n\ This\ changes\ the\ color.\n
+comment2.params=dx\ dy
+comment2.target=void\ move(double,\ double)
+comment2.text=\n\ This\ moves\ the\ circle\ a\ specific\ distance.\n
+comment3.params=
+comment3.target=void\ removeFromCanvas()
+comment3.text=\n\ This\ removes\ the\ circle\ from\ the\ canvas.\ The\ if\ statement\n\ checks\ if\ there\ is\ /\ isn't\ a\ FilledCircle\ on\ the\ canvas.\n\ This\ is\ needed\ to\ prevent\ errors.\n
+comment4.params=
+comment4.target=void\ hide()
+comment4.text=\n\ This\ hides\ the\ circle.\n
+comment5.params=
+comment5.target=objectdraw.FilledOval\ getDrawable2DInterface()
+comment5.text=\n\ This\ returns\ the\ FilledOval\ from\ the\ FilledCircle.\n\ This\ is\ needed\ to\ use\ the\ objectDraw\ library\ methods.\n\ FilledCircle\ does\ not\ have\ access\ to\ them\ because\n\ it\ is\ not\ part\ of\ objectDraw.\n
+numComments=6

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Lazer
+comment1.params=x\ y\ width\ height\ canvas
+comment1.target=Lazer(double,\ double,\ double,\ double,\ objectdraw.DrawingCanvas)
+comment1.text=\n\ This\ is\ the\ constructor.\n
+comment2.params=dx\ dy
+comment2.target=void\ move(double,\ double)
+comment2.text=\n\ This\ moves\ the\ object\ a\ specific\ amount.\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\n\ This\ tells\ the\ object\ what\ to\ do\ when\ it\ moves.\n\ -----------------------------------------------\n\ The\ lazer\ shoots\ up\ from\ the\ bottom\ of\ the\ canvas\n\ and\ is\ removed\ from\ the\ canvas\ when\ it\ reaches\ the\ \n\ top.\n\ \n\ If\ the\ lazer\ touches\ the\ clouds,\ then\ the\ clouds\ are\n\ removed\ from\ the\ canvas.\n\ \n\ If\ the\ lazer\ touches\ the\ blocks,\ then\ the\ lazers\ are\n\ removed\ from\ the\ canvas.\n
+comment4.params=newColor
+comment4.target=void\ setColor(java.awt.Color)
+comment4.text=\n\ This\ changes\ the\ color\ of\ the\ object.\n
+comment5.params=
+comment5.target=void\ hide()
+comment5.text=\n\ This\ hides\ the\ object.\n
+comment6.params=
+comment6.target=void\ removeFromCanvas()
+comment6.text=\n\ This\ removes\ the\ object\ from\ the\ canvas.\ The\ if\ statement\n\ checks\ if\ there\ is\ /\ isn't\ a\ Lazer\ on\ the\ canvas.\n\ This\ is\ needed\ to\ prevent\ errors.\n
+numComments=7
